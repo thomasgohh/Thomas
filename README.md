@@ -1,8 +1,8 @@
 # Thomas
 
 
-1. Lab 1a-1 – Virtualisation and Linux Setup
-
+**Lab 1a-1 – Virtualisation and Linux Setup
+**
 Learning Points
 
 SHA256 verification: Learned how to verify the integrity of an Ubuntu ISO file using a SHA256 checksum. A matching checksum helps confirm that the downloaded file has not been corrupted or unexpectedly modified.
@@ -19,8 +19,8 @@ This lab helped me understand how virtualisation can be used to create a separat
 
 One thing I learned is that virtualisation is useful for testing and learning because it allows different operating systems to run in an isolated environment. This is also useful in cybersecurity, where different systems can be set up for testing and practical exercises.
 
-2. Lab 1a-2 – Ubuntu Desktop and Command Line Familiarisation
-
+**Lab 1a-2 – Ubuntu Desktop and Command Line Familiarisation
+**
 Learning Points
 
 Ubuntu GUI: Became familiar with the Ubuntu desktop, Firefox, LibreOffice and file manager.
@@ -49,8 +49,8 @@ I also learned that commands such as cp and mv have different purposes. The cp c
 
 Overall, I gained more confidence in using Linux commands and understood why command-line knowledge is important when managing servers.
 
-3. Lab 1a-3 – Linux Services, Permissions and File Management
-
+**Lab 1a-3 – Linux Services, Permissions and File Management
+**
 Learning Points
 
 Service management: Learned how Linux services can be managed using systemctl, including checking service status, starting, stopping and disabling services.
@@ -77,8 +77,9 @@ I learned that leaving unnecessary services running can expose additional ports 
 
 I also gained an understanding of how automation can reduce repetitive manual work. For example, Bash scripts can be used to perform regular system administration tasks. This is useful because administrators need to manage systems efficiently while maintaining security.
 
-4. Lab 2a-1 – Total Cost of Ownership (TCO) Analysis
 
+**Lab 2a-1 – Total Cost of Ownership (TCO) Analysis
+**
 Learning Points
 
 Total Cost of Ownership: Learned that TCO considers the overall cost of owning and operating equipment over a specific period.
@@ -99,8 +100,8 @@ Printing volume: Learned that the number of pages printed affects consumable cos
 Break-even analysis: Understood that the break-even point occurs when the total costs of two options become equal
 
 
-5. Lab 2b-1 – Cloud Web Server Deployment with Amazon EC2
-
+**Lab 2b-1 – Cloud Web Server Deployment with Amazon EC2
+**
 Learning Points
 
 Amazon EC2: Learned how to launch and manage a virtual server using Amazon Elastic Compute Cloud (EC2).
@@ -136,8 +137,8 @@ I also learned that security and cost management are important when using cloud 
 Overall, this lab gave me a better understanding of cloud infrastructure and how a basic web server can be deployed and managed using AWS. It also helped me connect Linux administration skills from the earlier labs with a practical cloud computing environment.
 
 
-# ICT Lab 2b-1 – Introduction to Bash Scripting & System Automation
-
+**Lab 2b-1 – Introduction to Bash Scripting & System Automation
+**
 ## Overall Project Reflection
 
 Through this lab, I developed a better understanding of Linux command-line operations and Bash scripting using Ubuntu. The practical exercises introduced me to filesystem management, script creation, loops, conditional statements and basic system monitoring.
@@ -155,8 +156,8 @@ Throughout the lab, I improved my troubleshooting skills by identifying command 
 Overall, this project strengthened my foundational knowledge of Linux and Bash scripting. It demonstrated how simple scripts can improve efficiency by automating everyday administrative tasks. These skills provide a useful foundation for more advanced Linux administration, cybersecurity and system automation activities.
 
 
-# ICT 3b-1 – Bash Backup Scripting, Cron Jobs & Cloud Export
-
+**Lab 3b-1 – Bash Backup Scripting, Cron Jobs & Cloud Export
+**
 ## Reflection
 
 Through this lab, I gained practical experience in using Bash scripting to automate file backup operations in Ubuntu. I learned how to use variables, arithmetic operations, loops and commands to create a script that recursively copies files and directories from the Documents folder into a backup directory.
