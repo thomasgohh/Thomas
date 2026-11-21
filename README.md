@@ -19,6 +19,9 @@ This lab helped me understand how virtualisation can be used to create a separat
 
 One thing I learned is that virtualisation is useful for testing and learning because it allows different operating systems to run in an isolated environment. This is also useful in cybersecurity, where different systems can be set up for testing and practical exercises.
 
+
+
+
 **Lab 1a-2 – Ubuntu Desktop and Command Line Familiarisation
 **
 Learning Points
@@ -49,6 +52,10 @@ I also learned that commands such as cp and mv have different purposes. The cp c
 
 Overall, I gained more confidence in using Linux commands and understood why command-line knowledge is important when managing servers.
 
+
+
+
+
 **Lab 1a-3 – Linux Services, Permissions and File Management
 **
 Learning Points
@@ -78,6 +85,9 @@ I learned that leaving unnecessary services running can expose additional ports 
 I also gained an understanding of how automation can reduce repetitive manual work. For example, Bash scripts can be used to perform regular system administration tasks. This is useful because administrators need to manage systems efficiently while maintaining security.
 
 
+
+
+
 **Lab 2a-1 – Total Cost of Ownership (TCO) Analysis
 **
 Learning Points
@@ -98,6 +108,8 @@ Cost comparison: Compared an inkjet printer with a laser printer to understand t
 Printing volume: Learned that the number of pages printed affects consumable costs and the final TCO.
 
 Break-even analysis: Understood that the break-even point occurs when the total costs of two options become equal
+
+
 
 
 **Lab 2b-1 – Cloud Web Server Deployment with Amazon EC2
@@ -137,6 +149,9 @@ I also learned that security and cost management are important when using cloud 
 Overall, this lab gave me a better understanding of cloud infrastructure and how a basic web server can be deployed and managed using AWS. It also helped me connect Linux administration skills from the earlier labs with a practical cloud computing environment.
 
 
+
+
+
 **Lab 2b-1 – Introduction to Bash Scripting & System Automation
 **
 
@@ -153,6 +168,9 @@ For system monitoring, I explored commands such as `top`, `free -h` and `df -h` 
 Throughout the lab, I improved my troubleshooting skills by identifying command syntax errors, understanding file permissions and testing script behaviour. I also learned the importance of validating user input to prevent unexpected script execution.
 
 Overall, this project strengthened my foundational knowledge of Linux and Bash scripting. It demonstrated how simple scripts can improve efficiency by automating everyday administrative tasks. These skills provide a useful foundation for more advanced Linux administration, cybersecurity and system automation activities.
+
+
+
 
 
 **Lab 3b-1 – Bash Backup Scripting, Cron Jobs & Cloud Export
