@@ -134,3 +134,17 @@ Another useful part of the lab was learning how to download and host an external
 I also learned that security and cost management are important when using cloud services. Security group rules need to be configured carefully so that only the required network traffic is allowed. Cloud resources should also be monitored to avoid unnecessary charges.
 
 Overall, this lab gave me a better understanding of cloud infrastructure and how a basic web server can be deployed and managed using AWS. It also helped me connect Linux administration skills from the earlier labs with a practical cloud computing environment.
+
+# ICT 3b-1 – Bash Backup Scripting, Cron Jobs & Cloud Export
+
+## Reflection
+
+Through this lab, I gained practical experience in using Bash scripting to automate file backup operations in Ubuntu. I learned how to use variables, arithmetic operations, loops and commands to create a script that recursively copies files and directories from the Documents folder into a backup directory.
+
+One of the key learning points was understanding how to automate repetitive tasks using Cron. By configuring the system-wide crontab, I was able to schedule the backup script to execute automatically every hour. I also learned how to verify scheduled execution by checking system logs and comparing backup archive timestamps.
+
+Another important part of this lab was learning how to transfer backup files to a remote AWS Ubuntu server using SCP and SSH key-based authentication. I successfully configured the SSH private key, established a remote connection and transferred the ZIP backup archive to the cloud server. This helped me understand how local backup automation can be extended to remote cloud storage.
+
+During the exercise, I encountered some challenges with command syntax, file permissions, SSH key locations and verifying Cron execution. Troubleshooting these issues helped me improve my understanding of Linux commands and system administration.
+
+Overall, this lab demonstrated how Bash scripting, Cron scheduling and cloud transfer can work together to create an automated backup workflow. I also learned that security is important when handling backup files and SSH credentials. In a production environment, I would improve the solution by using more restrictive file permissions, adding error handling, maintaining multiple backup versions and implementing backup retention policies.
