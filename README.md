@@ -157,6 +157,22 @@ Overall, this project strengthened my foundational knowledge of Linux and Bash s
 
 ---
 
+# ICT Lab 3a-2 – Enabling HTTPS with Let's Encrypt & Certbot
+
+## Overall Project Reflection
+
+Through this lab, I gained practical experience securing an Apache web server by enabling HTTPS using a free TLS certificate issued by Let's Encrypt. The activity helped me understand how TLS encryption protects communication between web browsers and web servers.
+
+I started by verifying the domain configuration using DNS lookup and HTTP connectivity tests. The domain `thomas-aws-lab.duckdns.org` successfully resolved to my AWS server's public IP address, `13.211.201.1`. I also used `curl` to verify that the Apache web server was responding correctly and that HTTP requests were redirected to HTTPS.
+
+Next, I installed Certbot using the Snap package manager and used the Apache plugin to obtain and deploy a TLS certificate from Let's Encrypt. Certbot successfully configured Apache to support HTTPS, allowing the website to be accessed securely through the browser.
+
+I also learned how to verify the certificate using different methods. Initially, the Chrome certificate viewer displayed an issuer named AdBlock360 Personal CA instead of Let's Encrypt. After investigating the issue, I used `sudo certbot certificates` and OpenSSL to inspect the certificate directly from the server. The results confirmed that the actual certificate was issued by Let's Encrypt E1 and was associated with my domain. This troubleshooting experience helped me understand how browser security software can intercept HTTPS connections and affect the certificate displayed to users.
+
+Another important part of the lab was understanding certificate validity and renewal. The Certbot output showed that the certificate had a validity period of approximately 90 days. I also learned how the `certbot renew --dry-run` command can be used to test the renewal process without replacing the live certificate.
+
+Overall, this lab strengthened my understanding of HTTPS, TLS certificates, Certificate Authorities, DNS configuration and Apache web server security. It also improved my troubleshooting skills by teaching me to verify certificate information using both browser tools and Linux command-line utilities. These skills are useful for deploying and maintaining secure web services in cloud environments.
+
 ## Lab 3b-1 – Bash Backup Scripting, Cron Jobs & Cloud Export
 
 ### Learning Points
