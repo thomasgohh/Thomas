@@ -89,8 +89,48 @@ Variable costs: Considered ink or toner cartridges, paper, electricity and maint
 
 Excel formulas: Used Excel to organise cost information and calculate the estimated five-year costs.
 
+
+
+
 Cost comparison: Compared an inkjet printer with a laser printer to understand the differences in initial and running costs.
 
 Printing volume: Learned that the number of pages printed affects consumable costs and the final TCO.
 
 Break-even analysis: Understood that the break-even point occurs when the total costs of two options become equal
+
+
+5. Lab 2b-1 – Cloud Web Server Deployment with Amazon EC2
+
+Learning Points
+
+Amazon EC2: Learned how to launch and manage a virtual server using Amazon Elastic Compute Cloud (EC2).
+
+Security groups: Learned how to configure inbound security group rules to allow SSH traffic on port 22 and HTTP traffic on port 80.
+
+SSH connection: Learned how to connect remotely to an Ubuntu EC2 instance using SSH.
+
+Apache installation: Used Linux commands to update the package list and install the Apache web server.
+
+Web server testing: Learned how to test the Apache web server through a web browser using the EC2 instance's public IP address.
+
+HTML customisation: Learned how to edit the default Apache HTML page using the nano text editor.
+
+File downloading: Used the wget command to download an external PDF file from the internet.
+
+Web directory: Learned how to copy files into /var/www/html/ so they can be accessed through the Apache web server.
+
+File hosting: Learned how to create a hyperlink in the HTML page to allow users to access the uploaded PDF file.
+
+Cloud cost monitoring: Gained exposure to AWS Billing and Cost Management and the importance of monitoring cloud resource usage.
+
+Reflection
+
+This lab helped me understand how cloud computing can be used to deploy and host a web server. I learned how to launch an EC2 instance on AWS, configure its security group and connect to the Ubuntu server remotely using SSH.
+
+I also gained practical experience installing Apache and modifying its default webpage. By accessing the website through the public IP address, I could see how a web server makes content available to users through a browser.
+
+Another useful part of the lab was learning how to download and host an external PDF file. Using wget, copying the file into the Apache web directory and adding a hyperlink helped me understand how websites can provide access to different types of content.
+
+I also learned that security and cost management are important when using cloud services. Security group rules need to be configured carefully so that only the required network traffic is allowed. Cloud resources should also be monitored to avoid unnecessary charges.
+
+Overall, this lab gave me a better understanding of cloud infrastructure and how a basic web server can be deployed and managed using AWS. It also helped me connect Linux administration skills from the earlier labs with a practical cloud computing environment.
