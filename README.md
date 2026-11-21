@@ -1,5 +1,5 @@
 Student: Thomas
-Programme: Bachelor of Information Technology
+
 Specialisation: Cybersecurity & AI  
 Table of Contents
 - Lab 1a-1 – Virtualisation and Linux Setup
