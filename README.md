@@ -173,9 +173,9 @@ Overall, this project strengthened my foundational knowledge of Linux and Bash s
 
 
 
-**Lab 3b-1 – Bash Backup Scripting, Cron Jobs & Cloud Export
+##Lab 3b-1 – Bash Backup Scripting, Cron Jobs & Cloud Export
 **
-## Reflection
+
 
 Through this lab, I gained practical experience in using Bash scripting to automate file backup operations in Ubuntu. I learned how to use variables, arithmetic operations, loops and commands to create a script that recursively copies files and directories from the Documents folder into a backup directory.
 
