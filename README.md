@@ -139,7 +139,6 @@ Overall, this lab gave me a better understanding of cloud infrastructure and how
 
 **Lab 2b-1 – Introduction to Bash Scripting & System Automation
 **
-## Overall Project Reflection
 
 Through this lab, I developed a better understanding of Linux command-line operations and Bash scripting using Ubuntu. The practical exercises introduced me to filesystem management, script creation, loops, conditional statements and basic system monitoring.
 
