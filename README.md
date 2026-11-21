@@ -135,6 +135,26 @@ I also learned that security and cost management are important when using cloud 
 
 Overall, this lab gave me a better understanding of cloud infrastructure and how a basic web server can be deployed and managed using AWS. It also helped me connect Linux administration skills from the earlier labs with a practical cloud computing environment.
 
+
+# ICT Lab 2b-1 – Introduction to Bash Scripting & System Automation
+
+## Overall Project Reflection
+
+Through this lab, I developed a better understanding of Linux command-line operations and Bash scripting using Ubuntu. The practical exercises introduced me to filesystem management, script creation, loops, conditional statements and basic system monitoring.
+
+One of the key learning experiences was working with Linux filesystem commands such as `mkdir`, `cat`, `cp`, `mv` and `rm`. These commands allowed me to create directories, manage files and perform basic file operations directly through the terminal.
+
+I also gained practical experience creating and executing Bash scripts using the `#!/bin/bash` shebang. By applying permissions with `chmod`, I learned how to make scripts executable and run them directly from the terminal.
+
+Another important area was implementing loops and conditional statements. I used `for` loops to perform repeated operations and `if`, `elif` and `else` statements to evaluate user input. The use of `read` also helped me understand how to make scripts interactive and handle different input conditions.
+
+For system monitoring, I explored commands such as `top`, `free -h` and `df -h` to observe CPU activity, memory utilisation and disk space. I combined these commands into a monitoring script and used `sleep` to control the intervals between monitoring cycles. This demonstrated how Bash scripting can automate repetitive system administration tasks.
+
+Throughout the lab, I improved my troubleshooting skills by identifying command syntax errors, understanding file permissions and testing script behaviour. I also learned the importance of validating user input to prevent unexpected script execution.
+
+Overall, this project strengthened my foundational knowledge of Linux and Bash scripting. It demonstrated how simple scripts can improve efficiency by automating everyday administrative tasks. These skills provide a useful foundation for more advanced Linux administration, cybersecurity and system automation activities.
+
+
 # ICT 3b-1 – Bash Backup Scripting, Cron Jobs & Cloud Export
 
 ## Reflection
