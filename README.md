@@ -1,6 +1,5 @@
 Student: Thomas
 
-Specialisation: Cybersecurity & AI  
 Table of Contents
 - Lab 1a-1 – Virtualisation and Linux Setup
 - Lab 1a-2 – Ubuntu Desktop and Command Line Familiarisation
